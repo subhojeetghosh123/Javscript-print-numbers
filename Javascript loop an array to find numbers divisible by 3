@@ -1,0 +1,9 @@
+var array = [],
+    threes = [];
+
+function loveTheThrees(array) {
+    for (i = 0, len = array.length; i < len; i++) {
+    threes = array.push(i % 3);
+  }
+  return threes;
+}
